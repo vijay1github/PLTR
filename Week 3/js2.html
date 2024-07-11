@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="inputss">
+    <button onclick="Add()" id="add">Add</button>
+    <ul id="ulist">
+        <li>Hello
+            <button onclick="deletes(event)" id="delete">Delete</button>
+        </li>
+        
+    </ul>
+
+
+<script>
+    var list=document.getElementById("ulist")
+    var inputs= document.getElementById("inputss")
+function Add(){
+    var inputs= document.getElementById("inputss").value;
+    var newlist= document.createElement("li")
+    console.log(newlist)
+    newlist.innerHTML=inputs+"<button onclick='deletes(event)'>Delete</button>";
+    list.append(newlist)
+    
+}
+function deletes(event){
+    event.target.parentElement.remove();
+    }
+</script>
+</body>
+</html>

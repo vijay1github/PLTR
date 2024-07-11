@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+
+
+<form style="margin-left: 400px; margin-right: 400px; margin-bottom:100px; margin-top: 100px;">
+    <fieldset >
+    <legend>REGISTRATION FORM</legend>
+    <br>
+<!--pattern in html only for text-->
+<label for="name">NAME:</label></td>
+<input style="margin-left:102px"type="text" id="name" required placeholder="vijay" pattern="[A-Z]{3}[0-9]{2}[A-Z]{3}[0-9]{2}">
+<br>
+<br>
+
+<label for="name">REGISTER NUMBER:</label></td>
+<input style="margin-left:1px" type="text" id="name" required pattern="[A-Z0-9]+" placeholder="713321IT001"><br><br>
+<label for="NUMBER">PHONE NUMBER:</label></td>
+<input style="margin-left:23px"type="number" id="NUMBER" required pattern="[0-9]{10}" placeholder="+91"><br><br>
+<label for="email">EMAIL:</label></td>
+<input style="margin-left:100px"type="email" id="email" required pattern="[.]com" placeholder="@gmail.com"><br><br>
+
+<label for="gender">GENDER:</label>
+<!--Radio button 
+id is to refer the form control with in same page 
+name is to append the value in the url
+value is actual value of radio button -->
+
+<input style="margin-left:82px"type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<br><br>
+
+
+
+
+<!--form action once if we click on submit button it open the page which has been mentioned in forms action attribute
+if there is no action then it reload the page 
+target attribute
+_self
+_parent
+_blank
+_top
+-->
+
+
+<label>COURSE:</label>
+<input style="margin-left:83px" type="radio" id="html" name="favlang" value="html">
+<label for="html">HTML</label>
+<input type="radio" id="css" name="favlang" value="css">
+<label for="css">CSS</label><br><br>
+<!--select box-->
+<label >PLACE:</label>
+<select style="margin-left:96px"id="select" mutiple>
+    <option></option>
+<option >Hyderabad</option>
+<option >Coimbatore</option>
+<option >Chennai</option>
+<option >Bengaluru</option>
+</select><br><br>
+COMMENT:<br>
+<textarea style="width:150px; height:100px;" placeholder="your comment"></textarea><br>
+<br>
+<input type="checkbox"  name="accept all cookies">
+<label >Accept all cookies</label><br>
+<input type="checkbox" name="i accept all the terms" >
+<label>I accept all the terms</label><br><br>
+<div>
+<pre>
+<button onclick="alert('submit your response')">submit </button>
+
+</pre>
+</div>
+</fieldset>
+</form>
+</body>
+</html>

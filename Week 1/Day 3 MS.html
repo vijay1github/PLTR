@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <form action="">
+            <fieldset name="sample form">
+            <legend>sample form</legend>
+    <!--pattern in html only for text-->
+    <label for="name">NAME</label></td>
+    <input type="text" id="name" required placeholder="vijay" pattern="[A-Z]{3}[0-9]{2}[A-Z]{3}[0-9]{2}">
+<br>
+<br>
+    <label for="name">REGISTER NUMBER</label></td>
+    <input type="text" id="name" required pattern="[A-Z0-9]+"><br><br>
+
+    
+    <label for="name">COLOR</label></td>
+    <input type="text" id="name" required  pattern="#[a-f0-90-9]{6}"><br><br>
+
+    <label for="name">url</label></td>
+    <input type="text" id="name" required  pattern="https\:\/\/www[.][a-z]+[.]com"><br><br>
+
+<label for="gender">GENDER</label>
+<!--Radio button 
+id is to refer the form control with in same page 
+name is to append the value in the url
+value is actual value of radio button -->
+
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<br><br>
+   
+
+
+
+<!--form action once if we click on submit button it open the page which has been mentioned in forms action attribute
+if there is no action then it reload the page 
+target attribute
+_self
+_parent
+_blank
+_top
+-->
+
+
+    <label>COURSE</label>
+    <input type="radio" id="html" name="favlang" value="html">
+    <label for="html">HTML</label>
+    <input type="radio" id="css" name="favlang" value="css">
+    <label for="css">CSS</label><br><br>
+    <input type="checkbox" id="c1" name="books reading" value="reading book">
+    <label for="c1">Reading book</label><br><br>
+    <input type="checkbox" id="c1" name="books reading" value="watching tv">
+    <label for="c1">Watching tv</label><br><br>
+    <!--select box-->
+    <select id="course" mutiple>
+        <option value="html">html</option>
+        <option value="css">css</option>
+        <option value="mern">mern</option>
+        <option value="mean">mean</option>
+    </select><br><br>
+    COMMENT:<br><br>
+    <textarea style="width:150px; height:100px;">write a comment</textarea><br>
+    <br>
+    <div>
+        <pre>
+<button onclick="alert('welcome')">save and continue </button><br><br>
+<input type="submit">
+    </pre>
+    </div>
+    </fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,51 @@
+header{
+    padding: 20px;
+    background-color: rgba(66, 29, 29, 0.963);
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.conatiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.n{
+   display: flex;
+   flex-direction: row;
+   margin-left:525px;
+   padding: 5px;
+}
+
+nav > li{
+   color: white;
+   padding: 5px;
+   margin: 10px;
+}
+
+.m{
+display: flex;
+flex-direction: row;
+}
+
+div > li{
+    background-color: rgb(21, 86, 47);
+    color: white;
+    padding: 12px;
+    margin-top: 30px;
+    margin-left: 630px;
+    margin-bottom: 33px;
+    width: 100px;
+    text-align: center;
+}
+
+div > p{
+    text-align: center;
+}

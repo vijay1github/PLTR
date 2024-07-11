@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online books</title>
+    <script src="https://kit.fontawesome.com/e4799f0c65.js" crossorigin="anonymous"></script>
+    <style>
+        header{
+        border: 5px solid rgb(90, 87, 84);
+        height: 150px;
+        padding: auto;
+        text-align: center;
+        }
+        
+        nav{
+            width: 200px;
+            border: 5px solid  rgb(90, 87, 84);
+            float: left;
+            padding-bottom: 100px;
+            text-align: left;
+            height: 420px;
+        }
+        div{
+            border: 5px solid  rgb(90, 87, 84);
+            height: 420px;
+            padding-bottom: 100px;
+        }
+        footer{
+            border: 5px solid  rgb(90, 87, 84);
+            text-align: center;
+        }
+      .navya{
+           margin-right: 300px;
+           margin-bottom: 50px;
+      }
+
+    </style>
+</head>
+<body background="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAywMBEQACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUH/8QAJhAAAgICAgEDBQEBAAAAAAAAAAECEQMhEjFBBCJREzJhcYGRQv/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACIRAQEBAQADAQEAAgMBAAAAAAABAhEDEiExQVFhBBQiE//aAAwDAQACEQMRAD8A+vs4a6yEaWIxyceiLbC51UcoTyFcNFksuaZ3K7TVNWi0/Z+MpYkug9Y0muhQD1Fp8EHqXQ1JRfB0Fl58Ls/rnXrJqfCf3L5OWf8AJ1L66aXwznY6ceZSXZ058nWV8bVOzWVn6plBN2lTFyHLZ+nxK9R00g4OnQAAENC4bKSszsX0lAJyfgt6fArpGsY5A0hiV2+iplN01sfScrMa3TRKioQSxcNlki1uP+GO8/2Kln9VjyWGd9LWW8JG2axsaxafZrEfiqRc+n0+KK4VooOJcnrPTLNG7qa6Zyf8j/jzyTv9b+Ly3NceDJKEvp5Fxkji8e7m+uv1vrM1Ox6OKdpbO/G+ubWWlmnU8Cmrp6KzuflTc1ZokwBUI2c2RaqJUbMrTUkOA6KgWkjSJtDYWlIVkdNgyWxCMmIxQBNEmxyY2nyh/UY7xz7Fy/yqx5LDGkby6IM6M1hY2TNJUmn8lzR2K0aJKUU0KwRy+p9Msqvqa6ZyefwTc/228fk9XPilLHLhNU7OTGrm8021zX2OpStHVNMrCl0TqnIrDmpqM3rwy/H5uXmk68f9joOpiU2ktsm3hydY3bOfWu1Uh2QZ8iugRZeaVVZdqeESfAB8ZsayEohAACEZNCDGUKdx/qMtY5excvflaY5lYrPUbwZvmsbF9lcKU4yrsc1z4qxaZpKgNBYGWf08csfiS6fwYeXwzc/2vO7K5E5Y3xmqaOOXWdeum/79W5FWkh7ZH6p1enyPi1LdHX4fJecrHcnfiXJzd+Cd6tEnC6MwTlQrQSfJhPp8aI2JSHCMAKHyp6zG0IRgAAAAyoQFBwIlCncSLn+xXVQZWaz1G0Waxkpqx2HKSlxdPontz+q/WidmsqLDKJlnwrKviS6Zj5fFPJP9rzqxxSbi3GSqSPOvc/K3l6McXOVIeJd3kGrx2JqCSX9Z2zmZyMf39TJJ7RNES06M7DZtWyOHIuMTTJ1okaSJVQ+Ehyt0ujO32vD5xRvPxlaglsAMACAAAAAACgMuJNhKgy81FjRMtBtJrYrJf0RK9r/BHfVf6vkaeyeE5Cuj4xywWTv7l5MPLmbXm8EI/TjSFjPpOQW9pOwpmmEJTvjpbCz4U/WUSY0raKNJEVokaSItZ5J74x/0jdOFFUTnI0o3YoIbgDAAAYAAAABgQGQEDTKlTYoZB9bC/Zw5U3WjLvP1X6VuWkhdtH4vjXfZchdHGxXJWpcCfVU0TXHsKEc90T7K9Vcb3H/CvXv2F3nytIIrKajNkv2x68s0TP1EUZ2LbLorMToAz4yE3MAAAAwAACmMgAMCAwBELH0uCxUyeyL9NpjS4/nzZeJJPiLb1TRQCQEbar8hwMMvIx3KvLB9mP8AWrbDdm/j6jXG8kv6b+v9jLtYuFEqhxQuKV0g/E86izPo9UlLAAwAAGMwBAAY+AUBCgAoZChF0U30TVLUaBFqkghdVRpAmToAzbK4Dasm56OsnD3GFz9aTTSKoqVN+rs1lSTQlQuhmylK3ow1pcyLF0issjGYAGAAwYADBgQsALGQsCOwIReyTrVCQYwLKlDOS/I5YaCwBX4SktEWSxUhmfOKKxwKTLiazlJO0ibe/FT4572c1bcXY0cBsRoYMAABjAAGMACAEYwVh1I0T1UgsQaxkUmw276FwoV0K0IlIj2PhKn+zbG+wWcDkRrXachqRUpnYX6E3smQX4WSfFUGtSQSdc/1PcYXf1t6fBPe4/0Voz/imnoXT4Z0MjQBQwYAxgADGQACwJLexdB/sQ4VgrgsQ4q67H1PDWStC9v4ViZTM9USJ5WR+qka48fmX+G+PH8+o1v+RllTx/ojcuV51KhZCZtfqf1lFcn0i/8A6STtL1tci9bk+q3/AMP/AJOb/s69u/xtfBm5/wBtpT5K7uyrv2RJy8Z3sjrSRcGXL1Oob7Fwlo6mSkANDCgAGDAACJsOklyd0uybf4Z6S/Iz4lsnp8KxdVxUerZX86i3+JcrZHRIPAUM5TaezDV4v1dWDHSU59+EdXh8X90x1r/DZvZ08ZE0pR4yVoWsyzlOWy/HnZ8c8U0km4vpnneTGsa47Mbmp1nOMq3/AAjWbVSz+MZRI9WkqsM+D4v7WOfC3nv2Opw1a6NfVnNJiqYSH1rX4NfVCUy2a0MKAGMGAFgRNgESlel2TaJFRXFb7CThplILVyIsnquLiq3IJ/mo1f5EznvROtdpSJiEFao1kJMoJbZGsRUrXFl/5k/0y/H5efKz1lpZ0zTPg59UZ6395BwT2qe18E8+fTjCWNNaMtYazTmy46MbltmueSoixpK6PS5+PtnuJpjXPlRvHfsdbxq7jtG3oymvilDRXqXs5kyCXZQNMAoYFgA2LpIbbaUe2Lv+D4uMVBO3scnDTKXwK1UjNsztXIcV5Y5P8o1r+QpzJ3opniFtkQ2sI7OjMRa0lKOOO+zW2ZhSdc2TPvRy721mUxyWzL2FjqxTclX8R0ePdvxlZxuksaau35ZvyZZ29S2HRxN0TVRGZKS/JGo0zXBk0zn03zURexRT0PSZqqMto6fHr+Vz+TPfsd3FeDo4w7XlpnM2aIZKGFIAGwJO26XYqFxSgvz8j5IcnUSkRa0kZyZNqxFeWEnf1F1/IJS+Ba0mRn2ZqaRibYiauWWOOPyzS7mYmTrhzepcm9nLvy9b5y53l+TC76vjf08ZZJJR6+S/Hm6vxGrI74pQWjszJmMLej6rXYXSeKWSwmunxSdmn6QYWCOD1ScJb6fk4/J/5v10+O9jmU/cRK0dvppWzo8dZbehF+1HU5+PPiznW0TKhKTGFWBDbYULXt/Y/wAERJ35ItXPiGzOrSlbDM7+lacn8FWkgzMRVlZnRaeTKoKkVrUkT+1wZszl5OXe7W2cudtswtaSNPT4ZZpUuvJfjxd0tX1j1scI4YKMf6ehnMxORyW2lKRNpyM5OyLrpycYxyvHKpPRl7XNX69jsxztHTjXWVjU2SjLjjkg4yVpk6xNTlEtzex4vqcU/S5qluMvtl8nneTOvHfrtxubjr9HOzbxa+o3HrwXtR3S/HLXmpmC2kWOEtMZKSvoZWrXtQ+yF1LkZ2qiGyOq6lbYpnp3RmghMnhlQeplKXFV5HbxNvXHkb2c+r1eY55RbMbG0qsWGWSSSQY8d1eQa1yPTxqGGHFd+WehnM8c45dW6qJ5UZ62cyyllMrpfAsiF7DhvjNUx/sC8VwpPaKx2J1yuuMrSOrN6yV2WGefDDNBwyK4sneJucomrm9jzoYZ+mzKEnyi/tl8nFPHrx646vebnXsY/sR2z8c1ebEyXWkRxLRDJpHQ0USZFCGTVJXZJr8GxQmJpCAwgqdVnkMdFlzySsixrCUERxbeCWPHcVt+Tox/5z8Z6YZMkr7I1qnIwnkl8mOquM/qSI6fDjOXyAdGNvRpE124dtG+WNdEkotNeUbRBmsIDBTipqpLQazNT6cvKuGopGf4p//Z" >
+       <header>
+            <div1 style="height: 50px; float: right; margin-top: 25px; margin-left: 0px;">
+                <form>
+                    <input type="search"  placeholder ="Search...." list="search" style="margin-right: 80px; width: 200px;height: 27px; margin-top:8px;background-color: rgb(160, 153, 157);color: white;border: 2px solid black; ">&nbsp;
+                <datalist id="search">
+                    <option value="Action">Action</option>
+                    <option>comedy</option>
+                    <option>Drama</option>
+                    <option>Horror</option>
+                </datalist>
+                </form>
+                <i class="fa-solid fa-magnifying-glass navya" style="position: absolute; top: 46px;right: 5px; border: 2px solid black;padding: 1px; background-color: rgb(160, 153, 157);height: 21px;"></i>
+            </div1>
+                <h1 style="margin-left: 250px;" >ONLINE BOOKS</h1>
+                <h2 style="margin-left: 0px ;">Learn online books for free!!</h2>
+</header>
+    <nav>
+        <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+    </ul>
+        <h1 style="padding: 5px;">CATEGORY</h1>
+        <ul>
+        <li><a href="#">ACTION</a></li>
+        <li><a href="#">COMEDY</a></li>
+        <li><a href="#">DRAMA</a></li>
+        <li><a href="#">HORROR</a></li>
+    </ul>
+    <h1 style="padding: 5px;">PUBLISH</h1>
+    <ul>
+    <li><a href="#">NEW 2024</a></li>
+    <li><a href="#">2023-2024</a></li>
+    <li><a href="#">2022-2023</a></li>
+    <li><a href="#">2021-2022</a></li>
+</ul>
+    </nav>
+            <div>
+                <h1 style="text-align: center;">Books</h1>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <img src="https://images.unsplash.com/photo-1513001900722-370f803f498d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Ym9va3N8ZW58MHx8MHx8fDA%3D" width="200" height="190">
+            <img src="https://media.istockphoto.com/id/910852368/photo/student-searching-books.jpg?s=612x612&w=0&k=20&c=mwhm2PRXrVPoCjBUcNozECWs2w76SGTtIVZIkaDuiyM=" width="200" height="190" >
+            <img src="https://media.istockphoto.com/id/1206481532/photo/close-up-view-of-woman-reading-a-book-in-outdoor-at-park.jpg?s=612x612&w=0&k=20&c=pO4lQB5i0s8tnA4W4qlUz4FxDlcd6N9NS9OupLQUtyE="  width="200" height="190" >
+            <img src="https://media.istockphoto.com/id/949118068/photo/books.jpg?s=612x612&w=0&k=20&c=1vbRHaA_aOl9tLIy6P2UANqQ27KQ_gSF-BH0sUjQ730=" width="200" height="190" >
+            <img src="https://media.istockphoto.com/id/1097811822/photo/bookshelf-of-irish-legal-books.jpg?s=612x612&w=0&k=20&c=8otSyGSVWUIOn6s8Bb_gXBfw_UqmZKrtyOCkpAmmzrc=" width="180" height="190">
+            <h4>&nbsp;MAGIC OF BOOKS</h4>
+        Deserunt facere voluptatem a nisi eius facilis excepturi, voluptate harum quod cumque dignissimos minima illum aperiam architecto, at reiciendis possimus laboriosam. Quasi eveniet illo ex exercitationem blanditiis et modi odit nulla iusto. In iure soluta ullam enim. Beatae, voluptatum!</p>lorem ipsum dolor sit amet consectetur adipisicing elit. Provident recusandae explicabo odit quasi est id quis nemo quaerat rem aut animi saepe quod optio dolorem esse alias, assumenda eius fugit. Dolore, in unde. Omnis, et numquam nisi amet ea non. Ea incidunt nihil unde nesciunt udchto. Sequi.
+    </p>
+</div>
+</body>
+<footer>&copy; 2024 abc@gmail.com</footer>
+</html>
